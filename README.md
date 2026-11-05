@@ -1,53 +1,50 @@
-JARVIS + Friday projem için, uygulamayı ilk kez kullanacak kişilere yönelik bir indirme, kurulum ve kullanım rehberi hazırla. Çıktı GitHub README dosyasında kullanılabilecek Markdown biçiminde olsun. Önce Türkçe, ardından İngilizce sürümünü yaz. Teknik bilgisi olmayan birinin takip edebileceği açık ve numaralı adımlar kullan.
+JARVIS + Friday Gemini uygulamamın yeni sürümü için Türkçe bir tanıtım, indirme ve kullanım rehberi hazırla. Okuyucunun teknik bilgi sahibi olmadığını düşün; adımları açık ve anlaşılır anlat.
 
-Proje bilgileri:
-- Geliştirici/yayıncı: DERİN DEVLET.
-- Uygulama: Windows 64 bit için JARVIS + Friday masaüstü asistanı.
-- Güncel sürüm: 2026.11.04.2.
-- Gemini tam kurulum dosyası: JARVIS_Gemini_Hafif_Tam_Kurulum_2026-11-04_v16.exe
-- Alternatif Ollama tam kurulumu: JARVIS_Ollama_Hafif_Tam_Kurulum_2026-11-04_v33.exe
-- İndirme bağlantısı: [GITHUB RELEASES BAĞLANTISINI BURAYA EKLE]
-- Her kurulum JARVIS ve Friday’i birlikte içerir. Kullanıcı tercih ettiği sürümü seçer; ikisini birden kurması gerekmez.
-- Bunlar tam kurulumdur; önceki kurulum veya ayrıca Python kurulumu gerekmez.
-- Gemini sürümü için Ollama gerekmez. İnternet ve kullanıcının kendi Gemini API anahtarı gerekir.
-- Ollama sürümü yerel yanıtlar için kurulu Ollama modeli kullanır. Mevcut seslendirme ise Gemini bağlantısı gerektirir.
+Aşağıdaki doğrulanmış bilgileri kullan. Belirtilmeyen özellik, indirme bağlantısı veya başarı garantisi uydurma.
 
-Rehberde şu konuları anlat:
+UYGULAMA BİLGİLERİ
+- Adı: JARVIS + Friday Gemini
+- Tam sürüm: v.2026.11.05.3
+- Paket sürümü: Gemini v21
+- Geliştirici adı: DERİN DEVLET
+- Platform: 64 bit Windows
+- Tam kurulum dosyası: JARVIS_Gemini_Hafif_Tam_Kurulum_2026-11-05_v21.exe
+- İndirme boyutu: yaklaşık 80 MB
+- JARVIS ve Friday aynı uygulamada bulunur; ayrı kurulum gerekmez.
+- Gemini sürümü için ayrıca Python veya Ollama kurulması gerekmez.
+- İnternet bağlantısı ve kullanıcının kendi Gemini API anahtarı gerekir. Kullanım Google hesabının kota ve ücretlendirmesine bağlıdır.
+- Gerçek indirme bağlantısı verilmediyse “[İNDİRME BAĞLANTISI]” alanı bırak.
 
-1. İndirme ve kurulum
-GitHub deposundaki Releases bölümünden doğru tam kurulum EXE’sinin seçilmesini, indirilmesini, çalıştırılmasını ve masaüstü kısayolundan uygulamanın açılmasını açıkla. Kaynak kod ZIP dosyasını kurulum dosyasıyla karıştırma. İndirme bağlantısı verilmemişse bağlantı uydurma; yer tutucuyu koru.
-Resmî başvuru: https://docs.github.com/en/repositories/releasing-projects-on-github/viewing-your-repositorys-releases-and-tags
+ÖZELLİKLER
+- JARVIS ve Friday arasında çip ekranından geçiş.
+- Yazılı sohbet, sesli yanıtlar ve canlı konuşma modu.
+- JARVIS için Charon, Friday için Kore sesleri.
+- Fotoğraf ve PDF/metin dosyası inceleme.
+- Kullanıcının seçtiği pencerenin görüntüsünü inceleyerek adım önerme.
+- Belgeleri bilgi kütüphanesine ekleme ve kaynak alıntılarıyla soru yanıtlama.
+- Belge taslağı hazırlama; DOCX, PDF ve Markdown olarak dışa aktarma.
+- Arama özetlerinden kaynaklı araştırma dosyaları oluşturma. Bunu bütün kaynak sayfalarını tamamen okuma olarak tanıtma.
+- Kullanıcının başlattığı ders/toplantı kaydını döküme ve özete dönüştürme; seçilen görevleri yapılacaklara aktarma.
+- Notlar, takvim, anımsatıcılar, projeler, alışkanlık takibi ve çalışma sınavları.
+- Kişisel kayıt arama, yedekleme ve rutin oluşturma.
+- Yapılandırma gerektiren Gmail günlük raporu ve desteklenen bilgisayar yönetimi araçları.
 
-2. Gemini’yi ilk kez bağlama
-Google AI Studio’dan kişisel API anahtarı edinme sürecini anlat:
-https://aistudio.google.com/apikey
-Kullanıcı uygulamada AYARLAR → GENEL → GEMINI BAĞLANTISI bölümüne girer. Anahtarını ilgili alana ekler, Google’a veri gönderimi açıklamasını okuyup onaylar ve GEMINI AYARLARINI KAYDET düğmesine basar. Gerçek bir anahtar isteme, örnek anahtar üretme veya anahtarın GitHub’da paylaşılmasını önerme.
-Resmî başvuru: https://ai.google.dev/gemini-api/docs/api-key
+BU SÜRÜMDEKİ DEĞİŞİKLİKLER
+- Ultron çipi kaldırıldı. Seçim ekranında yalnız JARVIS ve Friday bulunur.
+- Gemini 3 modellerine gönderilen eski istek ayarları güncellendi.
+- API anahtarı kayıt durumu ayarlarda gösterilir. Kaydettikten sonra giriş alanının boşalması normaldir; anahtarın silindiği anlamına gelmez.
+- Yedek model seçeneği açıksa, seçili Flash modeli yanıt başlatamadığında veya geçici sunucu hatası verdiğinde gemini-3.5-flash-lite kullanılabilir. Kayıtlı model tercihi değiştirilmez.
+- Gemini 3.8’in sunucu sorununun tamamen çözüldüğünü söyleme. Son doğrudan denemelerde 503 ve zaman aşımı görüldü; başarılı 3.8 yanıtı henüz doğrulanmadı.
 
-3. İlk konuşma
-Mesaj kutusuna yazarak GÖNDER düğmesiyle konuşmayı; mikrofon durumunu kontrol etmeyi; F5 ile mikrofonu duraklatıp sürdürmeyi anlat. F4 ses açma/kapatma içindir. CANLI düğmesiyle canlı konuşmanın kullanılabildiğini açıkla. AI MODELLERİ bölümünden JARVIS ve Friday arasında geçiş yapılabilir. Varsayılan sesler JARVIS için Charon, Friday için Kore’dir.
+REHBERİN İÇERİĞİ
+1. Uygulamanın ne yaptığını anlatan kısa tanıtım.
+2. Gereksinimler ve tam kurulum adımları.
+3. Ayarlar > Genel bölümünden Gemini anahtarını kaydetme, gönderim onayını etkinleştirme ve bağlantı kontrolü.
+4. JARVIS ve Friday’i kullanmaya başlama.
+5. Örnek komutlar: “Günlük rapor”, “Bilgi kütüphanesini aç”, “Toplantı notlarını aç”, “Belge hazırla: kısa bir rapor yaz”.
+6. Yeni sürümdeki değişiklikler.
+7. Anahtar alanının boşalması, model erişimi, kota ve 503 hatası için kısa sorun giderme bölümü.
 
-4. Kullanım örnekleri
-Kısa açıklamalarıyla şu örnekleri ver:
-- “Merhaba, nasılsın?”
-- “Not al yarın projeye devam et.”
-- “Günlük rapor.”
-- “Kayıtlarımda ESP32 ara.”
-- “Rutin merkezini aç.”
-- “Verilerimi yedekle.”
+Soruların, ilgili sohbet bağlamının ve kullanıcının inceletmek için seçtiği içeriklerin Google’a gönderildiğini anlaşılır biçimde belirt. Canlı modda mikrofon açıkken sesin iletildiğini açıkla. API anahtarını sohbetlerde paylaşmasını isteme.
 
-FOTOĞRAF düğmesiyle görsel, BELGE düğmesiyle PDF/metin dosyası eklenebildiğini; EKRAN menüsüyle ekran hakkında soru sorulabildiğini anlat. Günlük raporda Gmail bilgisi için hesabın ayrıca AYARLAR → RAPOR / GMAIL bölümünden bağlanması gerektiğini belirt.
-
-5. Yeni rutin özelliği
-Somut bir başlangıç örneği yaz:
-“Rutin merkezini aç” → “25 DK DERS TASLAĞI” → adımları incele → KAYDET → “Ders çalışmaya başla rutinini başlat.”
-Ders modunun Ayarlar → Bilgisayar tercihlerine bağlı olduğunu belirt. “Rutini durdur” yalnızca kalan adımları iptal eder; açılmış uygulamaları kapatmaz veya kurulmuş zamanlayıcıyı geri almaz.
-
-6. Veri ve bağlantı bilgisi
-Gemini’nin soruları, ilgili sohbet/hafıza bağlamını ve seçilen ekleri Google üzerinden işlediğini açıkla. Canlı modda açık mikrofonun sesi Google’a iletilir; uygulama arka plana geçince canlı bağlantı kapanır. Yerel kayıt aramasının sonuçları modele gönderilmez. Kişisel yedek dosyaları şifrelenmez; hesap anahtarlarını, ek dosyaları ve rutin tanımlarını içermez.
-
-7. Kısa sorun giderme
-Mikrofon kapalı olması, yanlış giriş aygıtı, Windows mikrofon izni, internet bağlantısı, geçersiz API anahtarı ve kullanım kotası için anlaşılır kontrol adımları ver. Güncel fiyat, kota veya model erişimi hakkında doğrulanmamış bilgi yazma.
-
-Olmayan özellikleri, indirme bağlantılarını veya düğmeleri uydurma. “Tamamen çevrimdışı”, “sınırsız ücretsiz” veya “her bilgisayarda sorunsuz çalışır” gibi iddialar ekleme. Ücret/kota bilgisini Google’ın güncel koşullarına bağla. Gereksiz kod, terminal komutu ve geliştirici ayrıntıları kullanma. Sonuç doğrudan yayımlanabilecek bir kullanıcı rehberi olsun.
-
+Metni GitHub README’sine veya tanıtım sayfasına doğrudan eklenebilecek Markdown biçiminde yaz. Samimi, anlaşılır ve ölçülü ol; “kusursuz”, “sınırsız ücretsiz” veya “her şeyi otomatik yapar” gibi iddialar kullanma.
