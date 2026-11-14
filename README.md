@@ -1,50 +1,8 @@
-JARVIS + Friday Gemini uygulamamın yeni sürümü için Türkçe bir tanıtım, indirme ve kullanım rehberi hazırla. Okuyucunun teknik bilgi sahibi olmadığını düşün; adımları açık ve anlaşılır anlat.
+JARVIS + Friday Gemini v50’yi (**v.2026.11.14.3**) Windows bilgisayarıma kurmak ve kullanmak istiyorum. Bana Türkçe, yeni başlayan birinin anlayacağı şekilde adım adım rehberlik et.
 
-Aşağıdaki doğrulanmış bilgileri kullan. Belirtilmeyen özellik, indirme bağlantısı veya başarı garantisi uydurma.
+1. **İndirme ve kurulum.** [Gemini v50 tam kurulum dosyasını](https://github.com/Mamican5566/F.R.I.D.A.Y-Female-Replacement-Intelligent-Digital-Assistant-Youth-/releases/download/v.2026.11.05.3/JARVIS_Gemini_Hafif_Tam_Kurulum_2026-11-14_v50.exe) nasıl indireceğimi ve masaüstündeki **JARVIS Gemini** kısayolunu nasıl açacağımı anlat.
+2. **Gemini bağlantısı.** [Google AI Studio](https://aistudio.google.com/apikey) üzerinden kendi API anahtarımı alıp **Ayarlar → Genel → Gemini Bağlantısı** bölümüne girmemi göster. Anahtarı yalnızca uygulamaya yapıştırmamı söyle. Kaydettikten sonra **Kayıtlı Anahtarı Test Et** ve **Seçili Modeli Test Et** düğmelerinin farkını açıkla.
+3. **İlk deneme.** Önce yazılı bir soru sorarak sohbeti test ettir. Ardından **AI Modelleri** bölümünden Friday’e nasıl geçeceğimi ve canlı konuşmayı nasıl açacağımı anlat.
+4. **v50’de Gmail yanıt takibi.** **Ayarlar → Rapor / Gmail** bölümünden hesabımı bağlamayı, bir e-postayı İş Listesi’ne eklemeyi ve **Yanıt Bekle → Yanıt Gelince Bildir** adımlarını göster. Sonra **“Friday, yanıt gelenleri göster”**, **Yanıtı Önizle** ve **İşe Dön** seçeneklerini örnekle açıkla.
 
-UYGULAMA BİLGİLERİ
-- Adı: JARVIS + Friday Gemini
-- Tam sürüm: v.2026.11.05.3
-- Paket sürümü: Gemini v21
-- Geliştirici adı: DERİN DEVLET
-- Platform: 64 bit Windows
-- Tam kurulum dosyası: JARVIS_Gemini_Hafif_Tam_Kurulum_2026-11-05_v21.exe
-- İndirme boyutu: yaklaşık 80 MB
-- JARVIS ve Friday aynı uygulamada bulunur; ayrı kurulum gerekmez.
-- Gemini sürümü için ayrıca Python veya Ollama kurulması gerekmez.
-- İnternet bağlantısı ve kullanıcının kendi Gemini API anahtarı gerekir. Kullanım Google hesabının kota ve ücretlendirmesine bağlıdır.
-- Gerçek indirme bağlantısı verilmediyse “[İNDİRME BAĞLANTISI]” alanı bırak.
-
-ÖZELLİKLER
-- JARVIS ve Friday arasında çip ekranından geçiş.
-- Yazılı sohbet, sesli yanıtlar ve canlı konuşma modu.
-- JARVIS için Charon, Friday için Kore sesleri.
-- Fotoğraf ve PDF/metin dosyası inceleme.
-- Kullanıcının seçtiği pencerenin görüntüsünü inceleyerek adım önerme.
-- Belgeleri bilgi kütüphanesine ekleme ve kaynak alıntılarıyla soru yanıtlama.
-- Belge taslağı hazırlama; DOCX, PDF ve Markdown olarak dışa aktarma.
-- Arama özetlerinden kaynaklı araştırma dosyaları oluşturma. Bunu bütün kaynak sayfalarını tamamen okuma olarak tanıtma.
-- Kullanıcının başlattığı ders/toplantı kaydını döküme ve özete dönüştürme; seçilen görevleri yapılacaklara aktarma.
-- Notlar, takvim, anımsatıcılar, projeler, alışkanlık takibi ve çalışma sınavları.
-- Kişisel kayıt arama, yedekleme ve rutin oluşturma.
-- Yapılandırma gerektiren Gmail günlük raporu ve desteklenen bilgisayar yönetimi araçları.
-
-BU SÜRÜMDEKİ DEĞİŞİKLİKLER
-- Ultron çipi kaldırıldı. Seçim ekranında yalnız JARVIS ve Friday bulunur.
-- Gemini 3 modellerine gönderilen eski istek ayarları güncellendi.
-- API anahtarı kayıt durumu ayarlarda gösterilir. Kaydettikten sonra giriş alanının boşalması normaldir; anahtarın silindiği anlamına gelmez.
-- Yedek model seçeneği açıksa, seçili Flash modeli yanıt başlatamadığında veya geçici sunucu hatası verdiğinde gemini-3.5-flash-lite kullanılabilir. Kayıtlı model tercihi değiştirilmez.
-- Gemini 3.8’in sunucu sorununun tamamen çözüldüğünü söyleme. Son doğrudan denemelerde 503 ve zaman aşımı görüldü; başarılı 3.8 yanıtı henüz doğrulanmadı.
-
-REHBERİN İÇERİĞİ
-1. Uygulamanın ne yaptığını anlatan kısa tanıtım.
-2. Gereksinimler ve tam kurulum adımları.
-3. Ayarlar > Genel bölümünden Gemini anahtarını kaydetme, gönderim onayını etkinleştirme ve bağlantı kontrolü.
-4. JARVIS ve Friday’i kullanmaya başlama.
-5. Örnek komutlar: “Günlük rapor”, “Bilgi kütüphanesini aç”, “Toplantı notlarını aç”, “Belge hazırla: kısa bir rapor yaz”.
-6. Yeni sürümdeki değişiklikler.
-7. Anahtar alanının boşalması, model erişimi, kota ve 503 hatası için kısa sorun giderme bölümü.
-
-Soruların, ilgili sohbet bağlamının ve kullanıcının inceletmek için seçtiği içeriklerin Google’a gönderildiğini anlaşılır biçimde belirt. Canlı modda mikrofon açıkken sesin iletildiğini açıkla. API anahtarını sohbetlerde paylaşmasını isteme.
-
-Metni GitHub README’sine veya tanıtım sayfasına doğrudan eklenebilecek Markdown biçiminde yaz. Samimi, anlaşılır ve ölçülü ol; “kusursuz”, “sınırsız ücretsiz” veya “her şeyi otomatik yapar” gibi iddialar kullanma.
+Takıldığımda önce ekranda gördüğüm hata mesajını sor. API anahtarımı veya şifremi sohbette paylaşmamı isteme.
