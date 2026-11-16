@@ -11,5 +11,5 @@ JARVIS’e **Son İndirilenler** özelliği eklendi. Uygulamayı açmadan önce 
 1. **Assets** bölümünden `JARVIS_Gemini_Hafif_Tam_Kurulum_2026-11-16_v54.exe` dosyasını indir.
 2. Kurulumu tamamlayıp masaüstünden **JARVIS Gemini**’yi aç.
 3. İlk kullanımda **Ayarlar → Genel → Gemini Bağlantısı** bölümünden kendi Gemini API anahtarını kaydet.
-
-DERİN DEVLET tarafından geliştirildi. [Proje sitesi](https://jarvis-friday.turfyyew3.chatgpt.site/)
+[🌐 JARVIS + FRIDAY — Proje sitesi ve kurulum rehberi](https://jarvis-friday.turfyyew3.chatgpt.site/)
+DERİN DEVLET tarafından geliştirildi.
