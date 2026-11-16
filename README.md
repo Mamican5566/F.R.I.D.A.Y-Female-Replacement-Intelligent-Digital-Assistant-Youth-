@@ -1,19 +1,15 @@
-**JARVIS + FRIDAY Gemini v50** · `v.2026.11.14.3`
+## JARVIS + FRIDAY Gemini v54
 
-JARVIS ve Friday, Windows için tek uygulamada çalışan iki masaüstü asistanı. Gemini ile sesli sohbet edebilir, PDF ve fotoğrafları inceleyebilir, takvimini ve anımsatıcılarını yönetebilirsin. Telefon QR ile aynı Wi-Fi ağından asistana telefonunla da ulaşabilirsin.
+JARVIS’e **Son İndirilenler** özelliği eklendi. Uygulamayı açmadan önce indirdiğin dosyaları da bulabilir, istediğin türdeki en yeni dosyayı sesli veya yazılı komutla açabilirsin.
 
-## v50’de yeni · Friday ile Gmail yanıt takibi
+- **“Son indirdiklerimi göster”** — Son 15 dosyayı listeler.
+- **“Son indirdiğim PDF’yi aç”** veya **“Son indirdiğim fotoğrafı aç”** — İstediğin türdeki en yeni dosyayı açar.
+- **“Son indirdiğim kurulum dosyasını göster”** — Kurulum dosyasını klasöründe seçili olarak gösterir.
 
-- **Yanıt Gelince Bildir** ile bir Gmail konuşmasını göreve bağla ve yeni yanıt geldiğinde Windows bildirimi al.
-- **“Friday, yanıt gelenleri göster”** diyerek yanıt gelen görevleri en yeniden eskiye gör.
-- **Yanıtı Önizle** ile e-postayı uygulamada aç. Ardından **İş Listesine Dön** ile aynı göreve geri dön.
+### Windows 64 bit için tam kurulum
 
-## Windows için indir
+1. **Assets** bölümünden `JARVIS_Gemini_Hafif_Tam_Kurulum_2026-11-16_v54.exe` dosyasını indir.
+2. Kurulumu tamamlayıp masaüstünden **JARVIS Gemini**’yi aç.
+3. İlk kullanımda **Ayarlar → Genel → Gemini Bağlantısı** bölümünden kendi Gemini API anahtarını kaydet.
 
-**64 bit Windows · 80 MB · Tam kurulum**
-
-Kurulum dosyasını çalıştır ve masaüstündeki **JARVIS Gemini** kısayolunu aç. İlk kullanımda **Ayarlar → Genel → Gemini Bağlantısı** bölümünden kendi Gemini API anahtarını kaydet.
-
-[**Gemini v50 tam kurulum dosyasını indir**](https://github.com/Mamican5566/F.R.I.D.A.Y-Female-Replacement-Intelligent-Digital-Assistant-Youth-/releases/download/v.2026.11.05.3/JARVIS_Gemini_Hafif_Tam_Kurulum_2026-11-14_v50.exe)
-
-**DERİN DEVLET** tarafından geliştirildi.
+DERİN DEVLET tarafından geliştirildi. [Proje sitesi](https://jarvis-friday.turfyyew3.chatgpt.site/)
