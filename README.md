@@ -12,4 +12,5 @@ JARVIS’e **Son İndirilenler** özelliği eklendi. Uygulamayı açmadan önce 
 2. Kurulumu tamamlayıp masaüstünden **JARVIS Gemini**’yi aç.
 3. İlk kullanımda **Ayarlar → Genel → Gemini Bağlantısı** bölümünden kendi Gemini API anahtarını kaydet.
 [🌐 JARVIS + FRIDAY — Proje sitesi ve kurulum rehberi](https://jarvis-friday.turfyyew3.chatgpt.site/)
+
 DERİN DEVLET tarafından geliştirildi.
